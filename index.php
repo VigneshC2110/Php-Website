@@ -36,7 +36,7 @@ main {
 
     </style>
     <header>
-        <h1>Welcome to our website!</h1>
+        <h1>Welcome to my website!</h1>
     </header>
     
     <main>

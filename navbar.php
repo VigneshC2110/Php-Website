@@ -95,6 +95,7 @@ img{
     width: 40px;
     height: 40px;
     margin-top: 9px;
+    border-radius: 20px;
 }
 span{
     width: 10%;
@@ -117,7 +118,7 @@ span{
 
     <?php 
         if($_SESSION['name']){
-            echo (" <span> <a href='logout.php' class='menu'>Logout</a>  <img src='avatar-default-icon.png' ></span>");
+            echo (" <span> <a href='logout.php' class='menu'>Logout</a>  <img src='pro.webp' ></span>");
         }else{
       echo("<a class='signup-btn' href='signup.php' id='signup-toggle'>Sign Up</a>");
 
