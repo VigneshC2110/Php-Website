@@ -11,6 +11,7 @@
     /*--------------- CSS for Navbar ---------------------------*/
 body {
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .navbar {

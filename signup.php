@@ -4,13 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Navbar</title>
-
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <style>
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
 
 #signup-form {
     width: 400px;
-    margin: 30px auto;
+    margin: 20px auto;
     background-color: #fff;
     padding: 40px;
     border-radius: 10px;
@@ -114,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if ($userNameError || $emailError || $passwordError || $confirmPasswordError) {
-        echo "<script>alert('errors occured')</script>";
+        echo "<script>alert('Error')</script>";
     } 
     else {
         $conn = new mysqli("localhost", "dckap", "Dckap2023Ecommerce", "Php task");

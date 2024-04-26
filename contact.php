@@ -21,7 +21,7 @@ body, h1, h2, p, ul, li, form, label, input, textarea, button {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
